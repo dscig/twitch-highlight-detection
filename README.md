@@ -27,7 +27,7 @@ kv_maleonly = KeyedVectors.load('twitch_emote_embedding_male_top1000.kvmodel') #
 ```
 
 ## Metadatas ##
-Due to the huge size of the dataset, we provide clip and video identifier(ids) used in the experiments. `video_ids.csv`, `clip_ids.csv`
+Due to the huge size of the dataset, we provide clip and video identifier(ids) used in the experiments. `video_ids.csv`, `clip_ids_0.csv`, `clip_ids_1.csv`, `clip_ids_2.csv` and `clip_ids_3.csv`.
 
 ## Contact ##
 Due to the terms of uses and its large sizes, the full embedding models and dataset are available on demand (contact: hyun78.song@gmail.com)
