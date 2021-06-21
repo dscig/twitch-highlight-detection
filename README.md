@@ -15,14 +15,17 @@ Emote embedding training code(twitch_emote_embedding_train.py) and its usage cov
 
 ##### Example of Emote embedding #####
 <img src="./emote_embedding.png" width="500" height="400"> 
+
 ## Pretrained Embedding Model ##
 We provide pretrained embedding models with top 1000 vectors as follows: `twitch_emote_embedding_all_top1000.kvmodel`, `twitch_emote_embedding_male_top1000.kvmodel`
 To access them please use following codes.
+
 ```
 from gensim.models import KeyedVectors
 kv_full = KeyedVectors.load('twitch_emote_embedding_all_top1000.kvmodel') # trained by full dataset
 kv_maleonly = KeyedVectors.load('twitch_emote_embedding_male_top1000.kvmodel') # trained by male streamers only
 ```
+
 ## Metadatas ##
 Due to the huge size of the dataset, we provide clip and video identifier(ids) used in the experiments. `video_ids.csv`, `clip_ids.csv`
 
