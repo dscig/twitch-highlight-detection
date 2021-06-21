@@ -8,7 +8,7 @@ This repository is the PyTorch codes for "Finding-Epic-Moments-in-Live-Content-t
 * We conduct a user study to evaluate our algorithm-based suggestions against the human-expert edited epic moments. The crowdsourced experiment reveals the potential that the algorithmic suggestions are comparable to human decisions. Furthermore, algorithmic suggestions cover diverse emotions, such asfunny, sad, exciting, and nervous, as intended.
 
 ## MINT model architecture ##
-<img src="./model.png" width="500" height="400"> 
+<img src="./model.png" width="1000" height="400"> 
 
 ## Emote Embedding  ##
 Emote embedding training code(twitch_emote_embedding_train.py) and its usage covered in readme.txt.
